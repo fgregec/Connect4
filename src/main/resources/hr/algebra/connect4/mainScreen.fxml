@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="660.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.connect4.GameController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_50" fill="WHITE" layoutX="53.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_51" fill="WHITE" layoutX="91.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_52" fill="WHITE" layoutX="129.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_53" fill="WHITE" layoutX="167.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_54" fill="WHITE" layoutX="205.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_55" fill="WHITE" layoutX="243.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_56" fill="WHITE" layoutX="281.0" layoutY="305.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_40" fill="WHITE" layoutX="53.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_41" fill="WHITE" layoutX="91.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_42" fill="WHITE" layoutX="129.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_43" fill="WHITE" layoutX="167.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_44" fill="WHITE" layoutX="205.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_45" fill="WHITE" layoutX="243.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_46" fill="WHITE" layoutX="281.0" layoutY="272.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_30" fill="WHITE" layoutX="53.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_31" fill="WHITE" layoutX="91.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_32" fill="WHITE" layoutX="129.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_33" fill="WHITE" layoutX="167.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_34" fill="WHITE" layoutX="204.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_35" fill="WHITE" layoutX="243.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_36" fill="WHITE" layoutX="281.0" layoutY="239.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_20" fill="WHITE" layoutX="53.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_21" fill="WHITE" layoutX="91.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_22" fill="WHITE" layoutX="129.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_23" fill="WHITE" layoutX="167.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_24" fill="WHITE" layoutX="205.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_25" fill="WHITE" layoutX="243.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_26" fill="WHITE" layoutX="281.0" layoutY="206.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_10" fill="WHITE" layoutX="53.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_11" fill="WHITE" layoutX="91.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_12" fill="WHITE" layoutX="129.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_13" fill="WHITE" layoutX="167.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_14" fill="WHITE" layoutX="205.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_15" fill="WHITE" layoutX="243.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_16" fill="WHITE" layoutX="281.0" layoutY="173.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="34.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_00" fill="WHITE" layoutX="53.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="72.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_01" fill="WHITE" layoutX="91.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="110.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_02" fill="WHITE" layoutX="129.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="148.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_03" fill="WHITE" layoutX="167.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="186.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_04" fill="WHITE" layoutX="205.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="224.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_05" fill="WHITE" layoutX="243.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="262.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Circle fx:id="_06" fill="WHITE" layoutX="281.0" layoutY="140.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="firstButton" layoutX="37.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="1">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="secondButton" layoutX="75.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="2">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="thirdButton" layoutX="113.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="3">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="seventhButton" layoutX="265.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="7">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="sixthButton" layoutX="227.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="6">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="fifthButton" layoutX="189.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="5">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Button fx:id="fourthButton" layoutX="151.0" layoutY="122.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="202.0" prefWidth="32.0" text="4">
+         <font>
+            <Font name="System Bold" size="1.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbPlayerName" layoutX="404.0" layoutY="185.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d3c4b" height="34.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="660.0" />
+      <MenuBar fx:id="menuBar" layoutY="31.0" prefHeight="20.0" prefWidth="660.0" stylesheets="@../../../style.css">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#saveGame" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Load" />
+                  <MenuItem fx:id="btnDocumentation" mnemonicParsing="false" onAction="#getDocumentation" text="Documentation" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openChatScreen" text="Chat" />
+                  <MenuItem mnemonicParsing="false" onAction="#openLeaderboardScreen" text="Replay" />
+                  <MenuItem mnemonicParsing="false" onAction="#openHistoryScreen" text="Game History" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="btnNewGame" layoutX="345.0" layoutY="322.0" mnemonicParsing="false" onAction="#resetBoard" prefHeight="18.0" prefWidth="197.0" style="-fx-background-color: #2d3c4b;" text="New Game" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
